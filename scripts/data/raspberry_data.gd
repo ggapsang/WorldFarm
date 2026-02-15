@@ -1,14 +1,14 @@
 extends CropData
 
 func _init():
-	crop_name = "Northern Moss"
-	crop_type = "moss"
+	crop_name = "Northern Raspberry"
+	crop_type = "raspberry"
 	
 	# 3단계 성장 (SEED는 0초, 즉시 시작)
 	stage_durations = [
 		0.0,   # SEED - 즉시
-		5.0,   # SPROUT - 5초
-		5.0,   # GROWING - 5초
+		10.0,   # SPROUT - 10초
+		25.0,   # GROWING - 20초
 		0.0    # MATURE - 성장 종료
 	]
 	
@@ -27,11 +27,11 @@ func _init():
 	]
 	
 	stage_textures = [
-		"res://assets/sprites/crops/moss/moss_seed.png",
-		"res://assets/sprites/crops/moss/moss_sprout.png",
-		"res://assets/sprites/crops/moss/moss_growing.png",
-		"res://assets/sprites/crops/moss/moss_mature.png"
+		"res://assets/sprites/crops/raspberry/raspberry_seed.png",
+		"res://assets/sprites/crops/raspberry/raspberry_sprout.png",
+		"res://assets/sprites/crops/raspberry/raspberry_growing.png",
+		"res://assets/sprites/crops/raspberry/raspberry_mature.png",
 	]
 	
-	harvest_value = 10
-	seed_cost = 5
+	harvest_value = 200
+	seed_cost = 20
