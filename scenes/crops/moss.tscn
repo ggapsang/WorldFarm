@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dvaq3n4ma2r7v"]
+
+[ext_resource type="Script" uid="uid://bqp3avb82yxfn" path="res://scripts/crops/moss.gd" id="1_e1dxr"]
+
+[node name="Moss" type="Node2D" unique_id=1381214150]
+script = ExtResource("1_e1dxr")
+
+[node name="Visual" type="Sprite2D" parent="." unique_id=1193981490]

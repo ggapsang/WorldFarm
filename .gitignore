@@ -1,0 +1,36 @@
+# Godot 4.x
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Godot mono/C#
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS 관련
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# 빌드 결과
+builds/
+*.x86_64
+*.exe
+*.pck
+*.zip
+
+# 임시 파일
+*.tmp
+*.bak
+*.log
+
+# addons (플러그인은 Git에 포함할 수도 있지만, 문제 있었으니 제외)
+addons/
