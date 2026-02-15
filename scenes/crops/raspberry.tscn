@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://dm0m3104o36w8"]
 
+[ext_resource type="Script" uid="uid://bunkmpvrrvpip" path="res://scripts/crops/raspberry.gd" id="1_kllxs"]
+
 [node name="Raspberry" type="Node2D" unique_id=743693290]
+script = ExtResource("1_kllxs")
 
 [node name="Visual" type="Sprite2D" parent="." unique_id=1931192221]

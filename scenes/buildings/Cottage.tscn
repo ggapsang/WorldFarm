@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ck26jvuqkdeun"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pi4sd"]
+size = Vector2(60, 60)
+
+[node name="Cottage" type="Node2D" unique_id=272193031]
+
+[node name="Visual" type="Sprite2D" parent="." unique_id=1502350086]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2131396764]
+shape = SubResource("RectangleShape2D_pi4sd")
+
+[node name="SeedButton" type="Button" parent="." unique_id=570028817]
+visible = false
+custom_minimum_size = Vector2(100, 30)
+offset_left = -50.0
+offset_top = -140.0
+offset_right = 69.0
+offset_bottom = -109.0
+text = "🌱 씨앗 뿌리기"

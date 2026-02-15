@@ -6,9 +6,9 @@ func _init():
 	
 	# 3단계 성장 (SEED는 0초, 즉시 시작)
 	stage_durations = [
-		0.0,   # SEED - 즉시
+		5.0,   # SEED - 5초
 		10.0,   # SPROUT - 10초
-		25.0,   # GROWING - 20초
+		20.0,   # GROWING - 20초
 		0.0    # MATURE - 성장 종료
 	]
 	
